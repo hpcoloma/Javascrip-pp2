@@ -6,12 +6,26 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #D2D5D6;
     color: #333333;
-    
+       
 }
 
 /*Header*/
 header {
     text-align: center;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    background-color: #3C546C;
+    margin-left: 0;
+}
+
+/*Main Content*/
+main {
+    /* To push footer down*/
+    flex: 1 0 auto;
+    margin-top: 250px;
+    
+   
 }
 
 form {
