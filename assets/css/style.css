@@ -1,0 +1,15 @@
+/*Goofle Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*General Styles*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #D2D5D6;
+    
+}
+
+/*Header*/
+header {
+    text-align: center;
+
+}
