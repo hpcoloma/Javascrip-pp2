@@ -20,5 +20,26 @@
 </head>
 <body>
     <header><img src="assets/images/logo.png" id="logo-img" alt="Paywise Ireland"></header>
+    <br>
+    <br>
+    <form method="POST" action="/login/">
+        <div class="username">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name= "username">
+        </div>
+        <br>
+        <div class="password">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name= "password">
+        </div>
+        <br>
+        <div>
+            <button type="submit" onclick="logMein();">Login</button>
+            <button type="reset">Cancel</button>
+        </div>
+
+    </form>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
