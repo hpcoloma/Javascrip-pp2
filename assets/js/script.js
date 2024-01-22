@@ -1,5 +1,6 @@
 //This function will run when login button is clicked
     function logMein() {
+       event.preventDefault();
         //set credentials to log in
               
         let username = document.getElementById('username').value;
@@ -12,7 +13,8 @@
             return;
         } else if (username === uname && password === pword) {
             alert('Login successfull!');
-            //Redirect to register.html. Enter code here 
+            //Redirect to register.html.
+            window.location.replace("/registers.html");
 
         } else {
             alert('Invalid username or password. Please try again.');
